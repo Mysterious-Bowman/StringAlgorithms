@@ -7,18 +7,19 @@ public class StringAlgorithms {
      */
     public static String printCharacters(String word) {
         // TODO: Implement this method
-        
+        String out = "";
+
         for(int i = 0; i < word.length(); i++) {
             
             
-            System.out.println(word.charAt(i));
-            
+            out += word.charAt(i);
+            out += "\n";
         }
         
         
         
         
-        return "";
+        return out;
     }
 
 
@@ -84,8 +85,8 @@ public class StringAlgorithms {
         // TODO: Add test calls for each challenge method
         
         System.out.println("Testing printCharacters:");
-        printCharacters("hello");
-        
+        //printCharacters("hello");
+        System.out.println(printCharacters("hello"));
         
         // Example:
         // System.out.println(printCharacters("hello"));
