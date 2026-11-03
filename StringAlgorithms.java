@@ -7,7 +7,7 @@ public class StringAlgorithms {
      */
     public static String printCharacters(String word) {
         // TODO: Implement this method
-        return "";
+        return "1";
     }
 
 
