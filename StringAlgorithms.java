@@ -35,10 +35,10 @@ public class StringAlgorithms {
         out += word.charAt(i-1);
         }
         
-        System.out.println(out);
         
         
-        return "";
+        
+        return out;
     }
 
 
